@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-The project expects a dataset file at `./dataset/Train.csv` containing customer information including:
+The project expects a dataset file at `./Train.csv` containing customer information including:
 - Customer usage metrics (MONTANT, FREQUENCE, etc.)
 - Service plan information (TOP_PACK)
 - Demographic data (REGION)
@@ -69,7 +69,7 @@ STAT3013.Q12_Group04/
 ├── g4-logistic-regression.ipynb   # Logistic Regression model
 ├── g4-random-forest.ipynb         # Random Forest model implementation
 ├── g4-xgboost.ipynb               # XGBoost model implementation
-└── README.md                       # This file
+└── README.md                      
 ```
 
 ## Run Instructions
@@ -115,7 +115,7 @@ jupyter notebook g4-logistic-regression.ipynb
 
 Each model notebook follows a similar workflow:
 
-1. **Data Loading**: Load the training dataset from `./dataset/Train.csv`
+1. **Data Loading**: Load the training dataset from `./Train.csv`
 2. **Data Cleaning**: Remove inactive churners (customers with zero usage)
 3. **Feature Engineering**: 
    - Clean and standardize TOP_PACK column
