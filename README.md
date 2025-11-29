@@ -11,7 +11,7 @@ This project analyzes customer behavior data to predict churn (customer attritio
 ## Dataset & Resources
 
 ### Dataset
-- **Training Data**: `./dataset/Train.csv`
+- **Training Data**: `./Train.csv`
 - **Dataset Link**: https://zindi.africa/competitions/expresso-churn-prediction/data
 
 ### Video Demo
